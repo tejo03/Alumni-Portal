@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JOBS</title>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="jobs_style.css">
+<script>
+    function takevalue(e){
+         e.preventDefault();
+        var fname=document.getElementById("Username").value;
+        var sname=document.getElementById("Suggestion").value;
+        document.getElementById("username_text").innerText=fname;
+        document.getElementById("Suggestion_text").innerText=sname;
+    }
+</script>
+</head>
+
+<body>
+<section class="section-50">
+    <div class="container">
+      <h3 class="m-b-50 heading-line">Suggestions Blog<i class="fa fa-bell text-muted"></i></h3>
+      <div class="notification-ui_dd-content">
+        <div class="notification-list notification-list--unread">
+          <div class="notification-list_content">
+            <div class="notification-list_img"> <img src="download (2).jpg" alt="user"> </div>
+            <div class="notification-list_detail">
+              <p>Anonymous</b></p>
+              <p class="text-muted">Hello everyone, this is just to inform you guys that the worst mistake that i've done is no to do any internships during my vacations.So now i'm displaying a list of internship sources here...thought it would be a good deal.</p>
+              <p class="text-muted"><small>http::/sdfasfa.com</small></p>
+            </div>
+          </div>
+         
+        </div>
+        <div class="notification-list notification-list--unread">
+          <div class="notification-list_content">
+            <div class="notification-list_img"> <img src="photo-1560179707-f14e90ef3623.jpg" alt="user"> </div>
+            <div class="notification-list_detail">
+              <p>R.Abhinav</p>
+              <p class="text-muted">Well hello guys...I belong to 2020 batch. This current Suggesstion is to notify you guys that b.tech life is not just about the studies but also other cultural actiities</p>
+      
+            </div>
+          </div>
+
+        </div>
+        <div class="notification-list notification-list--read">
+          <div class="notification-list_content">
+            <div class="notification-list_img"> <img src="download (2).jpg" alt="user"> </div>
+            <div class="notification-list_detail">
+              <p>K.Pallavi</p>
+              <p class="text-muted">I felt a lot diffiuclt in mmy 2nd year to cope up with all the algorithms and other stuff. The only thing to overcome this problm is practice</p>
+              <p class="text-muted"><small>No worries</small></p>
+            </div>
+          </div>
+      
+        </div>
+        <div class="notification-list notification-list--read">
+          <div class="notification-list_content">
+            <div class="notification-list_img"> <img src="images (1).png" alt="user"> </div>
+            <div class="notification-list_detail">
+              <p>Anonymous </p>
+              <p class="text-muted">This is to remind you guys that you deserve to be appreciated.Be optimistic.</p>
+              <p class="text-muted">A good resource of internships for mech students is attachec below</small></p>
+              <p class="text-muted"><small>sdfaskjalsk.com</small></p>
+            </div>
+          </div>
+  
+        </div>
+        <div class="notification-list notification-list--unread">
+          <div class="notification-list_content">
+            <div class="notification-list_img"> <img src="istockphoto-1139495117-612x612.jpg" alt="user"> </div>
+            <div class="notification-list_detail">
+              <p>lahari</p>
+              <p class="text-muted">Some of the best resource boooks for daa is CLRS, for dbms is sudarshan</p>
+              <p class="text-muted"><small>Use all the resources to the fullest.</small></p>
+            </div>
+          </div>
+
+        </div>
+        <div class="notification-list notification-list--read">
+          <div class="notification-list_content">
+            <div class="notification-list_img"> <img src="photo-1560179707-f14e90ef3623.jpg" alt="user"> </div>
+            <div class="notification-list_detail">
+              <p id="username_text"></p>
+              <p class="text-muted" id="Suggestion_text"></p>
+              <p class="text-muted"></small></p>
+            </div>
+       
+        </div>
+      </div>
+      <form onsubmit="takevalue(event)">
+        <div>
+        <label>Username : </label>
+          <input type="text" id="Username">
+          <label>Suggesstion : </label>
+          <input type="text" id="Suggestion">
+          <input type="submit" >
+      
+      </div>
+      
+      </form>
+      
+    </div>
+  
+</body>
+  </html>

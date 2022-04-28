@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.image{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 75px;
+    line-height: 0px;
+    font-size: x-small;
+    min-width: auto;
+    float:left;  
+}
+h1{
+    font-size: x-small;
+    padding-left:25px;
+    min-width: auto;
+    display: flex;
+    position: relative;
+
+}
+
+.name{
+    
+    line-height: 0px;
+    
+    min-width:auto;
+    float:left;
+    height:110px;
+    padding-top:40px;
+    
+   
+}
+.register{
+    min-width:auto;
+    float:right;
+    padding-top: 40px;
+    padding-right: 80px;
+    
+}
+.register:hover{
+    color:grey;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(73, 73, 73);
+    line-height: 26px;
+    display: flex;   
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    color:white;
+    font-size:15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 32px;
+    line-height: 50px;
+    
+    
+}
+nav ul li a:hover{
+    color:gray;
+   
+
+}
+nav ul ul{
+    background-color:rgb(41, 36, 36);
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+
+.img-container{
+    height:500px;
+    padding-left: 350px;
+}
+.iframe{
+   
+    padding-left: 100px;
+    width: 50%;
+    float: left;
+    
+}
+.frame2{
+    display: flex;
+    padding-top: 500px;
+    width: 50%;
+    float: right;
+}
+.contact{
+    background-color: grey;
+    height:250px;
+    width: 2500px;
+    padding-top: 0px;
+}
+.contact h2,h3,h4{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+h3,h4{
+    padding-top: 10px;
+}
+.sub-menu{
+    display: none;
+
+}
+nav ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+    position: absolute;
+    background: rgb(0,100,0);
+
+
+}
+nav ul li:hover .sub-menu ul li{
+    width: 150px;
+
+    
+}
